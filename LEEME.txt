@@ -1,0 +1,46 @@
+CATALOGO DE PELICULAS - GUIA RAPIDA
+
+CONTENIDO
+- Los cuatro programas de Python solicitados.
+- Los archivos funciones_generos.py y funciones_peliculas.py con funciones compartidas.
+- generos.csv y peliculas.csv con datos de ejemplo.
+- index.html, estilos.css y app.js para la pagina web.
+
+LAS 10 PELICULAS ACTIVAS
+1. Rocky
+2. Scary Movie
+3. El Conjuro
+4. Titanic
+5. Metegol
+6. Cars
+7. Rick and Morty
+8. Toy Story
+9. Shrek
+10. Coco
+
+IMPORTANTE SOBRE LOS POSTERS
+Las direcciones de imagen incluidas son imagenes ilustrativas de reemplazo.
+Podes cambiarlas por URLs de posters que tengas autorizadas.
+
+EJECUTAR PYTHON
+1. Abrir la carpeta completa en Visual Studio Code.
+2. Abrir el archivo programa1_generos.py o programa2_peliculas.py.
+3. Presionar Run Python File (triangulo arriba a la derecha).
+4. Para consultas, ejecutar programa3_consulta_generos.py o
+   programa4_consulta_peliculas.py.
+No ejecutar los archivos funciones_*.py directamente: son modulos auxiliares.
+
+EJECUTAR LA PAGINA WEB
+1. Instalar la extension Live Server en VS Code.
+2. Abrir index.html.
+3. Clic derecho y elegir Open with Live Server.
+4. Se abrira el catalogo en el navegador.
+
+FILTROS
+- El buscador filtra por nombre cuando se escriben al menos 3 caracteres.
+- El selector permite filtrar por genero.
+- Solo se muestran peliculas y generos activos (baja = 0).
+
+BAJA LOGICA
+Los registros no se borran fisicamente. baja = 1 significa inactivo y
+baja = 0 significa activo.

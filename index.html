@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catalogo de peliculas</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <header>
+        <h1>Catalogo de peliculas</h1>
+        <p>Busca y explora las peliculas del catalogo</p>
+    </header>
+    <main>
+        <section class="filtros">
+            <input id="buscador" type="text" placeholder="Buscar por nombre (desde 3 letras)">
+            <select id="filtroGenero">
+                <option value="">Todos los generos</option>
+            </select>
+        </section>
+        <p id="cantidad"></p>
+        <section id="catalogo" class="catalogo"></section>
+    </main>
+    <script src="app.js"></script>
+</body>
+</html>
